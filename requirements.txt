@@ -1,0 +1,23 @@
+# Telegram bot
+aiogram>=3.0.0
+
+# Environment variables
+python-dotenv
+
+# Audio processing
+openai-whisper
+pydub
+ffmpeg-python  # не обязателен, но полезен; сам ffmpeg ставится отдельно в систему
+
+# NLP & text
+nltk
+
+# Scientific computing
+numpy
+scikit-learn
+
+# HTTP
+requests
+
+# Optional: если используешь torch напрямую (Whisper требует)
+torch
